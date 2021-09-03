@@ -1,0 +1,113 @@
+2021-08-24 13:25:52,508 train test split started
+2021-08-24 13:28:45,687 String columns dropped from Dataframe
+2021-08-24 13:28:45,696 train test split started
+2021-08-24 13:28:45,699 train test split finished
+2021-08-24 13:35:58,164 Data Loaded to Dataframe is started
+2021-08-24 13:35:58,193 Data Loaded to Dataframe is loaeded
+2021-08-24 13:35:58,199 String columns dropped from Dataframe
+2021-08-24 13:35:58,208 train test split started
+2021-08-24 13:35:58,211 train test split finished
+2021-08-24 13:42:15,164 Data Loaded to Dataframe is started
+2021-08-24 13:42:15,192 Data Loaded to Dataframe is loaeded
+2021-08-24 13:42:15,196 String columns dropped from Dataframe
+2021-08-24 13:42:15,204 train test split started
+2021-08-24 13:42:15,209 train test split finished
+2021-08-24 13:42:15,209 Model training started
+2021-08-24 13:42:15,213 Model trained done
+2021-08-24 13:42:15,215 model saved
+2021-08-24 13:42:15,216 model tested
+2021-08-28 20:55:40,843 Data Loaded to Dataframe is started
+2021-08-28 20:55:40,958 Data Loaded to Dataframe is loaeded
+2021-08-28 20:55:40,982 String columns dropped from Dataframe
+2021-08-28 20:55:40,992 train test split started
+2021-08-28 20:55:40,998 train test split finished
+2021-08-28 20:55:40,998 Model training started
+2021-08-28 20:55:41,094 Model trained done
+2021-08-28 20:55:41,095 model saved
+2021-08-28 20:55:41,096 model tested
+2021-08-28 20:59:08,207 prediction started
+2021-08-28 20:59:08,210 prediction done
+2021-08-28 21:00:27,569 prediction started
+2021-08-28 21:00:27,571 prediction done
+2021-09-03 20:56:35,217 Data Loaded to Dataframe is started
+2021-09-03 20:56:35,714 Data Loaded to Dataframe is loaeded
+2021-09-03 20:56:35,826 String columns dropped from Dataframe
+2021-09-03 20:56:35,887 train test split started
+2021-09-03 20:56:35,975 train test split finished
+2021-09-03 20:56:35,975 Model training started
+2021-09-03 20:56:36,163 Model trained done
+2021-09-03 20:56:36,166 model saved
+2021-09-03 20:56:36,208 model tested
+2021-09-03 20:57:06,375 prediction started
+2021-09-03 20:57:06,404 prediction done
+2021-09-03 21:01:35,731 prediction started
+2021-09-03 21:01:35,734 prediction done
+2021-09-03 21:05:02,408 Data Loaded to Dataframe is started
+2021-09-03 21:05:02,410 [Errno 2] File b'/data/ai4i2020.csv' does not exist: b'/data/ai4i2020.csv'
+2021-09-03 21:05:02,410 Exception on /train [POST]
+Traceback (most recent call last):
+  File "C:\Users\hares\anaconda3\envs\Project_classwork123\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hares\anaconda3\envs\Project_classwork123\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\hares\anaconda3\envs\Project_classwork123\lib\site-packages\flask\app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\hares\anaconda3\envs\Project_classwork123\lib\site-packages\flask\app.py", line 2096, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-09-03 21:05:47,357 Data Loaded to Dataframe is started
+2021-09-03 21:05:47,388 Data Loaded to Dataframe is loaeded
+2021-09-03 21:05:47,392 String columns dropped from Dataframe
+2021-09-03 21:05:47,401 train test split started
+2021-09-03 21:05:47,404 train test split finished
+2021-09-03 21:05:47,404 Model training started
+2021-09-03 21:05:47,408 Model trained done
+2021-09-03 21:05:47,409 model saved
+2021-09-03 21:05:47,410 model tested
+2021-09-03 21:17:06,076 prediction started
+2021-09-03 21:17:06,080 prediction done
+2021-09-03 21:19:38,801 Data Loaded to Dataframe is started
+2021-09-03 21:19:38,837 Data Loaded to Dataframe is loaeded
+2021-09-03 21:19:38,841 String columns dropped from Dataframe
+2021-09-03 21:19:38,849 train test split started
+2021-09-03 21:19:38,852 train test split finished
+2021-09-03 21:19:38,852 Model training started
+2021-09-03 21:19:38,857 Model trained done
+2021-09-03 21:19:38,858 model saved
+2021-09-03 21:19:38,859 model tested
+2021-09-03 21:20:28,097 prediction started
+2021-09-03 21:20:28,099 prediction done
+2021-09-03 21:23:08,829 prediction started
+2021-09-03 21:23:08,832 a bytes-like object is required, not 'str'
+2021-09-03 21:23:08,832 Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\hares\anaconda3\envs\Project_classwork123\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hares\anaconda3\envs\Project_classwork123\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\hares\anaconda3\envs\Project_classwork123\lib\site-packages\flask\app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\hares\anaconda3\envs\Project_classwork123\lib\site-packages\flask\app.py", line 2096, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-09-03 21:24:10,441 prediction started
+2021-09-03 21:24:10,444 prediction done
+2021-09-03 21:27:03,435 prediction started
+2021-09-03 21:27:03,439 prediction done
+2021-09-03 21:29:34,153 prediction started
+2021-09-03 21:29:34,157 prediction done
+2021-09-03 21:30:04,786 prediction started
+2021-09-03 21:30:04,789 prediction done
+2021-09-03 21:31:42,531 prediction started
+2021-09-03 21:31:42,533 prediction done
+2021-09-03 21:38:41,046 Data Loaded to Dataframe is started
+2021-09-03 21:38:41,077 Data Loaded to Dataframe is loaeded
+2021-09-03 21:38:41,081 String columns dropped from Dataframe
+2021-09-03 21:38:41,092 train test split started
+2021-09-03 21:38:41,094 train test split finished
+2021-09-03 21:38:41,094 Model training started
+2021-09-03 21:38:41,097 Model trained done
+2021-09-03 21:38:41,098 model saved
+2021-09-03 21:38:41,100 model tested
+2021-09-03 21:39:55,363 prediction started
+2021-09-03 21:39:55,365 prediction done
